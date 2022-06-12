@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prediction"
+    android:background="@drawable/allfeaturesback"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButtonP1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arrow" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewP1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Prediction"
+            android:textColor="#3B883E"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewP1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/question" />
+
+        <Button
+            android:id="@+id/buttonP1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_gradient"
+            android:layout_marginTop="20dp"
+            android:text="Select"
+            android:textColor="#F4EFEF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonP2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_gradient"
+            android:text="Prediction"
+            android:textColor="#F4EFEF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textViewP2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="Answer"
+            android:textColor="#3B883E"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

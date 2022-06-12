@@ -1,0 +1,5 @@
+Akita
+Beagle
+Chihuahua
+Dachshund
+Poodle
